@@ -1,0 +1,18 @@
+Instructions pour ajouter un personnage au jeu:
+- Ouvrez le template.bmp à l'aide d'un éditeur d'images,
+- Sauvegardez le sous le nom "[nomChoisi].bmp" (en ASCII!),
+- Ajoutez maintenant les images (de préférence dans un nouveau
+  calque) à afficher pour votre personnage:
+----- PORTRAIT: portrait dans la sélection des personnages
+----- idle: personnage immobile
+----- mvt1 & mvt2: personnage en mouvement
+----- front: de face, back: de dos
+----- left: vers la droite, right: vers la gauche
+----- La couleur correspondant à la transparence est le rose
+----- (R, G, B) = (255, 0, 255).
+----- Regardez les fichiers des autres personnages pour voir
+----- a quoi doit ressembler la votre.
+- Sauvegardez votre image une fois terminé,
+- Ouvrez le fichier characterslist.txt avec un éditeur de texte,
+- Ajoutez la ligne "[nomChoisi].bmp",
+- Vous pouvez maintenant lancer le jeu.

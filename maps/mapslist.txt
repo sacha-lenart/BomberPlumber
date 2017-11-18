@@ -1,0 +1,4 @@
+maps/arena.lvl
+maps/classic.lvl
+maps/death_circle.lvl
+maps/maze.lvl

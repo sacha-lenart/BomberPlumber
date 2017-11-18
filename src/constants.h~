@@ -1,0 +1,34 @@
+#ifndef CONSTANTS_H_INCLUDED
+#define CONSTANTS_H_INCLUDED
+
+#define TILE_SIZE			32	// Taille des cases
+#define TILES_X				20	// Nombre horizontal de cases
+#define TILES_Y				20	// Nombre vertical de cases
+#define OBJECTS_OFFSET		3	// Décalage Y (pixels) des personnages et objets
+#define MAP_WALL_ID 		'0' // ID des cases de type mur
+#define MAP_GROUND_ID		'1' // ID des cases de type sol
+#define MAP_PLAYER_ID		'2' // ID des cases foulées par des personnages
+#define MAP_CRATE_ID		'3' // ID des caisses déplaçables
+#define MAP_CRATE_D_ID		'4' // ID des caisses destructibles
+#define MAP_BOMB_ID			'5' // ID des bombes
+#define MAP_SUPERMUSHROOM_ID '6'	// ID du bonus de vitesse
+#define MAP_BONUS_BOMB_ID	'7' // ID du bonus de portée
+#define MAP_INVINCIBLE_ID	'8' // ID du bonus d'invincibilité
+#define FILE_MAX_LENGTH		100 // Taille maximale du nom du fichier level
+
+#define PLAYER_ANIM_DELAY	200	// Délai (ms) entre chaque frame pour le mouvement des personnages
+#define PLAYER_MVT_BONUS	1.5	// Multiplicateur mouvement bonus
+#define PLAYER_MVT_SPEED	1.2	// Vitesse (pixels/image) de base du personnage
+#define MVT_INPUT_DELAY		100	// Temps d'appui minimum (ms) pour lequel le personnage va bouger
+#define AI_BOMB_CHANCE		15
+
+#define CRATE_ANIM_DELAY	100	//Delai (ms) entre chaque frame pour le mouvement des caisses
+#define GAME_TIME			180000 	// Durée (ms) d'une partie
+#define SCREEN_FRAMERATE	30	// Délai (ms) entre chaque itération de boucle principale
+#define NB_BONUS			3   // Nombre de bonus
+#define NEW_BONUS			20000 // Arrivée d'un nouveau bonus tous les NEW_BONUS (ms)
+#define BONUS_DURATION		15000 // Durée d'un bonus (ms)
+
+#define DURATION_CLASSEMENT 	10000 //Delai(ms) pour l'affichage du classement
+
+#endif

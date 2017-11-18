@@ -1,0 +1,15 @@
+Instructions pour ajouter un niveau au jeu:
+- Créez un fichier texte dans ce répertoire (/maps),
+- Renommez le en "[nomChoisi].lvl" (en ASCII!),
+- Ouvrez le avec un éditeur de texte,
+- Entrez la valeur de chaque case de votre niveau:
+----- 0: mur
+----- 1: sol
+----- 2: point de spawn pour un joueur
+----- 3: caisse déplaçable
+----- 4: caisse destructible
+----- Attention: un niveau doit avoir 20x20 cases (400),
+----- pas plus, pas moins!
+- Ouvrez le fichier mapslist.txt avec un éditeur de texte,
+- Ajoutez la ligne "[nomChoisi].lvl",
+- Vous pouvez maintenant lancer le jeu.

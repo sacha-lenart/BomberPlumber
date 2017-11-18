@@ -1,0 +1,8 @@
+sprites/bowser.bmp
+sprites/goomba.bmp
+sprites/koopa.bmp
+sprites/toad.bmp
+sprites/toadsworth.bmp
+sprites/mario.bmp
+sprites/luigi.bmp
+sprites/yoshi.bmp
